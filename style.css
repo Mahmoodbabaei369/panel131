@@ -43,11 +43,11 @@ body {
 }
 
 .main {
-    min-height: 94vh;
+    min-height: 93vh;
     width: 100%;
     overflow: hidden;
     transition: all 0.35s ease-in-out;
-    background-color: #fafbfe;
+    background-color: #fdfdfd;
 }
 
 #sidebar {
@@ -159,7 +159,7 @@ a.sidebar-link:hover {
 
 
 .navbar{
-    height: calc(100vh - 94vh);
+    height: calc(100vh - 93vh);
     z-index: 1000;
     background-color: #0e2238;
     display: flex;
@@ -167,8 +167,15 @@ a.sidebar-link:hover {
     flex:1;
     align-items: center;
     justify-content: center;
+    overflow: hidden;
 }
 .card-body{
     background-color: #0d3c6c;
     border-radius: 10px;
 }
+
+.nav-profile img {
+  margin-left: 15px;
+
+}
+
